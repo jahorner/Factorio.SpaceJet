@@ -8,7 +8,7 @@
 			icon_size = 256,
 			effects = {},
 			prerequisites = {
-				"cargo-planes",
+				"jets",
 				"se-astronomic-science-pack-1"
 			},
 			order = "a-e-d",

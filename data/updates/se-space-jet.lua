@@ -1,6 +1,6 @@
 ﻿local data = _G.data
 ------------------------------------------------------------------------------------------------------
-local entity = util.table.deepcopy(data.raw["car"]["cargo-plane"])
+local entity = util.table.deepcopy(data.raw["car"]["jet"])
 entity["animation"]["layers"] = {
 	{
 		filename = "__nco-SpaceJet__/graphics/se-space-jet_spritesheet.png",
@@ -32,17 +32,17 @@ entity.name = "se-space-jet"
 entity.minable = {mining_time = 1, result = "se-space-jet"}
 entity.burner.smoke = {}
 --
-local item = util.table.deepcopy(data.raw["item-with-entity-data"]["cargo-plane"])
+local item = util.table.deepcopy(data.raw["item-with-entity-data"]["jet"])
 item.name = "se-space-jet"
 item.icon = "__nco-SpaceJet__/graphics/se-space-jet_icon.png"
 item.icon_size = 64
 item.place_result = "se-space-jet"
 --
-local recipe = util.table.deepcopy(data.raw["recipe"]["cargo-plane"])
+local recipe = util.table.deepcopy(data.raw["recipe"]["jet"])
 recipe.name = "se-space-jet"
 recipe.result = "se-space-jet"
 recipe.ingredients = {
-	{"cargo-plane", 1},
+	{"jet", 1},
 	{"se-lifesupport-equipment-1", 5},
 	{"se-heat-shielding", 1000}
 }
