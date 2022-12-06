@@ -9,7 +9,7 @@ local function has_value(tab, val)
 	return false
 end
 --===================================================================================================
-local planes = {"gunship", "cargo-plane", "jet", "flying-fortress", "cargo-plane-green", "se-space-shuttle"}
+local planes = {"gunship", "cargo-plane", "jet", "flying-fortress", "cargo-plane-green", "se-space-jet"}
 --
 for _, itm in pairs(data.raw["item-with-entity-data"]) do
 	if has_value(planes, itm.name) then

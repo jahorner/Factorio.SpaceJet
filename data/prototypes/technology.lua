@@ -2,9 +2,9 @@
 	{
 		{
 			type = "technology",
-			name = "se-space-shuttle",
-			mod = "nco-SpaceShuttle",
-			icon = "__nco-SpaceShuttle__/graphics/se-space-shuttle-tech_icon.png",
+			name = "se-space-jet",
+			mod = "nco-SpaceJet",
+			icon = "__nco-SpaceJet__/graphics/se-space-jet-tech_icon.png",
 			icon_size = 256,
 			effects = {},
 			prerequisites = {

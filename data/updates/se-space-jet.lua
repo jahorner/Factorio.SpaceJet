@@ -3,7 +3,7 @@
 local entity = util.table.deepcopy(data.raw["car"]["cargo-plane"])
 entity["animation"]["layers"] = {
 	{
-		filename = "__nco-SpaceShuttle__/graphics/se-space-shuttle_spritesheet.png",
+		filename = "__nco-SpaceJet__/graphics/se-space-jet_spritesheet.png",
 		priority = "high",
 		width = 224,
 		height = 224,
@@ -13,7 +13,7 @@ entity["animation"]["layers"] = {
 		shift = {0, 0},
 		max_advance = 1,
 		hr_version = {
-			filename = "__nco-SpaceShuttle__/graphics/hr-se-space-shuttle_spritesheet.png",
+			filename = "__nco-SpaceJet__/graphics/hr-se-space-jet_spritesheet.png",
 			priority = "high",
 			width = 448,
 			height = 448,
@@ -26,21 +26,21 @@ entity["animation"]["layers"] = {
 		}
 	}
 }
-entity.icon = "__nco-SpaceShuttle__/graphics/se-space-shuttle_icon.png"
+entity.icon = "__nco-SpaceJet__/graphics/se-space-jet_icon.png"
 entity.icon_size = 64
-entity.name = "se-space-shuttle"
-entity.minable = {mining_time = 1, result = "se-space-shuttle"}
+entity.name = "se-space-jet"
+entity.minable = {mining_time = 1, result = "se-space-jet"}
 entity.burner.smoke = {}
 --
 local item = util.table.deepcopy(data.raw["item-with-entity-data"]["cargo-plane"])
-item.name = "se-space-shuttle"
-item.icon = "__nco-SpaceShuttle__/graphics/se-space-shuttle_icon.png"
+item.name = "se-space-jet"
+item.icon = "__nco-SpaceJet__/graphics/se-space-jet_icon.png"
 item.icon_size = 64
-item.place_result = "se-space-shuttle"
+item.place_result = "se-space-jet"
 --
 local recipe = util.table.deepcopy(data.raw["recipe"]["cargo-plane"])
-recipe.name = "se-space-shuttle"
-recipe.result = "se-space-shuttle"
+recipe.name = "se-space-jet"
+recipe.result = "se-space-jet"
 recipe.ingredients = {
 	{"cargo-plane", 1},
 	{"se-lifesupport-equipment-1", 5},
@@ -55,6 +55,6 @@ data:extend({entity})
 data:extend({item})
 data:extend({recipe})
 table.insert(
-	data.raw["technology"]["se-space-shuttle"]["effects"],
-	{type = "unlock-recipe", recipe = "se-space-shuttle"}
+	data.raw["technology"]["se-space-jet"]["effects"],
+	{type = "unlock-recipe", recipe = "se-space-jet"}
 )

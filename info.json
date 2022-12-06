@@ -1,11 +1,11 @@
 {
-	"name": "nco-SpaceShuttle",
-	"version": "0.0.5",
-	"title": "Space Shuttle",
-	"author": "Karoschl",
+	"name": "nco-SpaceJet",
+	"version": "0.0.1",
+	"title": "Space Jet",
+	"author": "jahorner",
 	"contact": "",
-	"homepage": "https://mods.factorio.com/mod/nco-SpaceShuttle",
-	"description": "Space Shuttle for Space Exploration orbital space flight. Based on Aircraft.",
+	"homepage": "https://mods.factorio.com/mod/nco-SpaceJet",
+	"description": "Space Jet for Space Exploration orbital space flight. Based on Aircraft.",
 	"factorio_version": "1.1",
 	"dependencies": [
 		"base >= 1.0",

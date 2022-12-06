@@ -18,15 +18,15 @@ local function reload_tech_unlock(technology_name)
 end
 -------------------------------------------------------------------------------------
 local function script_on_init()
-	reload_tech_unlock("se-space-shuttle")
+	reload_tech_unlock("se-space-jet")
 end
 --
 local function script_on_configuration_changed()
-	reload_tech_unlock("se-space-shuttle")
+	reload_tech_unlock("se-space-jet")
 end
 --
 local function event_on_force_created()
-	reload_tech_unlock("se-space-shuttle")
+	reload_tech_unlock("se-space-jet")
 end
 -------------------------------------------------------------------------------------
 script.on_init(script_on_init)

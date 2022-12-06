@@ -17,7 +17,7 @@ local function tech_has_ingredient(tech, prerequisteName)
 end
 --
 if mods["Krastorio2"] and not mods["Krastorio2Assets"] then
-    local tech = data.raw["technology"]["se-space-shuttle"]
+    local tech = data.raw["technology"]["se-space-jet"]
     --
     if not has_value(tech.prerequisites, "se-astronomic-science-pack-1") then
         table.insert(tech.prerequisites, "se-astronomic-science-pack-1")
